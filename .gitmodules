@@ -1,0 +1,15 @@
+[submodule "Healthcare-Server"]
+	path = Healthcare-Server
+	url = https://github.com/BharatSeva/Healthcare-Server.git
+[submodule "Client-Server"]
+	path = Client-Server
+	url = https://github.com/BharatSeva/Client-Server.git
+[submodule "Worker"]
+	path = Worker
+	url = https://github.com/BharatSeva/Worker.git
+[submodule "Client-Interface"]
+	path = Client-Interface
+	url = https://github.com/BharatSeva/Client-Interface.git
+[submodule "healthcare-interface"]
+	path = healthcare-interface
+	url = https://github.com/BharatSeva/HealthCare-Interface.git
