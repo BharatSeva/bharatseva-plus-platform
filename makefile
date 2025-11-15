@@ -2,16 +2,12 @@ COLOR := "\e[1;36m%s\e[0m\n"
 RED :=   "\e[1;31m%s\e[0m\n"
 
 ################ Main Targets ################
-
-# Initialize git submodules
-
-init: update-submodule start
-
+init: init-submodules update-submodule start
 init-submodules:
 	@git submodule update --init --recursive
-
+	
 update-submodule:
-	@git submodule update --remote --merge
+	@git submodule update --remote --merge --recursive
 
 start:
 	@docker compose up --build -d
